@@ -92,7 +92,7 @@
 		FAF5493E285F284A006012CC = {
 			isa = PBXGroup;
 			children = (
-				FAF54949285F284A006012CC /* DataStructuresAR */,
+				FAF54949285F284A006012CC /* DataStructureAR */,
 				FAF54948285F284A006012CC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FAF54949285F284A006012CC /* DataStructuresAR */ = {
+		FAF54949285F284A006012CC /* DataStructureAR */ = {
 			isa = PBXGroup;
 			children = (
 				FAF5496A285F32AA006012CC /* App */,
@@ -119,7 +119,7 @@
 				FAF5499E285F38ED006012CC /* Utilities */,
 				FAF5494E285F284A006012CC /* ViewController.swift */,
 			);
-			path = DataStructuresAR;
+			path = DataStructureAR;
 			sourceTree = "<group>";
 		};
 		FAF5495E285F2901006012CC /* StackQueue */ = {

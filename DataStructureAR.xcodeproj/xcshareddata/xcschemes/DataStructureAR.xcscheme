@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FAF54946285F284A006012CC"
-               BuildableName = "DataStructuresAR.app"
+               BuildableName = "DataStructureAR.app"
                BlueprintName = "DataStructureAR"
                ReferencedContainer = "container:DataStructureAR.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FAF54946285F284A006012CC"
-            BuildableName = "DataStructuresAR.app"
+            BuildableName = "DataStructureAR.app"
             BlueprintName = "DataStructureAR"
             ReferencedContainer = "container:DataStructureAR.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FAF54946285F284A006012CC"
-            BuildableName = "DataStructuresAR.app"
+            BuildableName = "DataStructureAR.app"
             BlueprintName = "DataStructureAR"
             ReferencedContainer = "container:DataStructureAR.xcodeproj">
          </BuildableReference>

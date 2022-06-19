@@ -151,7 +151,7 @@ final class ARLessonViewController: DefaultARViewController {
         
       }
     case .comingSoon:
-      sendContributionMessage()
+      break
     default:
       break
     }

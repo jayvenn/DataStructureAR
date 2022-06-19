@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "data-structure-ar",
+    "staging": "data-structure-ar"
+  },
+  "targets": {}
+}

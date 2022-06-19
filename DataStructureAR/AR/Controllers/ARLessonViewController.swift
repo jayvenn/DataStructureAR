@@ -61,6 +61,7 @@ final class ARLessonViewController: DefaultARViewController {
   init(lesson: Lesson) {
     self.lesson = lesson
     super.init(nibName: nil, bundle: nil)
+    modalPresentationStyle = .fullScreen
     setAccessibilityLabel()
   }
   

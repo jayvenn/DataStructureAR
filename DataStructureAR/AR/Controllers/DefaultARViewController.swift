@@ -119,7 +119,7 @@ class DefaultARViewController: BaseMenuViewController {
     button.sizeToFit()
     button.alpha = 0
     button.titleLabel?.font = UIFont.systemFont(ofSize: 24, weight: .regular)
-    button.addTarget(self, action: #selector(DefaultARViewController.cancelButtonDidTouchUpInside(_:)), for: .touchUpInside)
+    button.addTarget(self, action: #selector(cancelButtonDidTouchUpInside(_:)), for: .touchUpInside)
     let string = "Cancel"
     let localizedString = NSLocalizedString(string, comment: string)
     button.accessibilityLabel = localizedString
@@ -357,9 +357,9 @@ extension DefaultARViewController {
     fadeInTopObjects()
     let configuration = ARWorldTrackingConfiguration()
     configuration.planeDetection = .horizontal
-#if DEBUG
-    sceneView.showsStatistics = true
-#endif
+//#if DEBUG
+//    sceneView.showsStatistics = true
+//#endif
     resetObjects()
     
     var deadline = DispatchTime.now() + 1

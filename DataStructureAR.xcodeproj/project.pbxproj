@@ -148,13 +148,13 @@
 		FA75B96D285F40D600A8B409 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				FA75B974285F41E000A8B409 /* float4x4+Convenience.swift */,
+				FA75B97D285F436400A8B409 /* Notification+Name.swift */,
+				FA75B976285F41F300A8B409 /* SCNScene+Node.swift */,
+				FA75B972285F41C300A8B409 /* String+Convenience.swift */,
 				FA75B96E285F410900A8B409 /* UIColor+Custom.swift */,
 				FA75B970285F41AA00A8B409 /* UIView+Convenience.swift */,
-				FA75B972285F41C300A8B409 /* String+Convenience.swift */,
-				FA75B974285F41E000A8B409 /* float4x4+Convenience.swift */,
-				FA75B976285F41F300A8B409 /* SCNScene+Node.swift */,
 				FA75B978285F423A00A8B409 /* UIViewController+Convenience.swift */,
-				FA75B97D285F436400A8B409 /* Notification+Name.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -281,7 +281,6 @@
 			isa = PBXGroup;
 			children = (
 				FAF54969285F31DD006012CC /* Controllers */,
-				FAF5496C285F32C5006012CC /* Models */,
 				FAF54991285F376F006012CC /* Views */,
 			);
 			path = Menu;
@@ -315,13 +314,6 @@
 				FAF54979285F33C0006012CC /* TextFont.swift */,
 			);
 			path = Fonts;
-			sourceTree = "<group>";
-		};
-		FAF5496C285F32C5006012CC /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		FAF5497F285F35BC006012CC /* Reusable UIs */ = {
@@ -404,9 +396,9 @@
 		FAF5498E285F370D006012CC /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FAF54973285F330E006012CC /* Operation.swift */,
 				FAF5496D285F32CB006012CC /* Course.swift */,
 				FAF5496F285F32E6006012CC /* CourseSubject.swift */,
+				FAF54973285F330E006012CC /* Operation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -798,6 +790,8 @@
 				DEVELOPMENT_TEAM = 6897VAM74N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DataStructureAR/App/Supporting Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Data Structure";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Visualizations in augmented reality";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -826,6 +820,8 @@
 				DEVELOPMENT_TEAM = 6897VAM74N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DataStructureAR/App/Supporting Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Data Structure";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Visualizations in augmented reality";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

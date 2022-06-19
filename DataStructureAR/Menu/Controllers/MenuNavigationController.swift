@@ -15,8 +15,11 @@ class MenuNavigationController: UINavigationController {
     super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
   }
   convenience init() {
-    self.init(rootViewController: CoursesViewController())
+    let course = Course(courseSubject: .dataStructures)
+    let rootViewController = LessonsViewController(course: course)
+    self.init(rootViewController: rootViewController)
     navigationBar.barTintColor = .white
+    modalPresentationStyle = .fullScreen
   }
   required init?(coder aDecoder: NSCoder) {
     fatalError("init(coder:) has not been implemented")

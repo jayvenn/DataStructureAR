@@ -13,6 +13,17 @@
 		FAF54952285F284A006012CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF54950285F284A006012CC /* Main.storyboard */; };
 		FAF54954285F284E006012CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF54953285F284E006012CC /* Assets.xcassets */; };
 		FAF54957285F284E006012CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF54955285F284E006012CC /* LaunchScreen.storyboard */; };
+		FAF54961285F294A006012CC /* StackContainerBoxNodeName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF54960285F294A006012CC /* StackContainerBoxNodeName.swift */; };
+		FAF54963285F2968006012CC /* ContainerBoxNodeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF54962285F2968006012CC /* ContainerBoxNodeDelegate.swift */; };
+		FAF54967285F31A6006012CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF54966285F31A6006012CC /* HomeViewController.swift */; };
+		FAF5496E285F32CB006012CC /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5496D285F32CB006012CC /* Course.swift */; };
+		FAF54970285F32E6006012CC /* CourseSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5496F285F32E6006012CC /* CourseSubject.swift */; };
+		FAF54972285F3302006012CC /* LessonName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF54971285F3302006012CC /* LessonName.swift */; };
+		FAF54974285F330E006012CC /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF54973285F330E006012CC /* Operation.swift */; };
+		FAF54976285F331B006012CC /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF54975285F331B006012CC /* Lesson.swift */; };
+		FAF54978285F3375006012CC /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF54977285F3375006012CC /* FontManager.swift */; };
+		FAF5497A285F33C0006012CC /* FontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF54979285F33C0006012CC /* FontType.swift */; };
+		FAF5497C285F33D4006012CC /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5497B285F33D4006012CC /* Font.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		FAF54953285F284E006012CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF54956285F284E006012CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAF54958285F284E006012CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF54960285F294A006012CC /* StackContainerBoxNodeName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackContainerBoxNodeName.swift; sourceTree = "<group>"; };
+		FAF54962285F2968006012CC /* ContainerBoxNodeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerBoxNodeDelegate.swift; sourceTree = "<group>"; };
+		FAF54966285F31A6006012CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FAF5496D285F32CB006012CC /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		FAF5496F285F32E6006012CC /* CourseSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSubject.swift; sourceTree = "<group>"; };
+		FAF54971285F3302006012CC /* LessonName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonName.swift; sourceTree = "<group>"; };
+		FAF54973285F330E006012CC /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		FAF54975285F331B006012CC /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		FAF54977285F3375006012CC /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		FAF54979285F33C0006012CC /* FontType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontType.swift; sourceTree = "<group>"; };
+		FAF5497B285F33D4006012CC /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,10 @@
 		FAF54949285F284A006012CC /* DataStructuresAR */ = {
 			isa = PBXGroup;
 			children = (
+				FAF5496A285F32AA006012CC /* App */,
+				FAF54968285F31CF006012CC /* Menu */,
+				FAF54964285F3185006012CC /* Home */,
+				FAF5495E285F2901006012CC /* Stack and Queue */,
 				FAF5494A285F284A006012CC /* AppDelegate.swift */,
 				FAF5494C285F284A006012CC /* SceneDelegate.swift */,
 				FAF5494E285F284A006012CC /* ViewController.swift */,
@@ -65,6 +91,77 @@
 				FAF54958285F284E006012CC /* Info.plist */,
 			);
 			path = DataStructuresAR;
+			sourceTree = "<group>";
+		};
+		FAF5495E285F2901006012CC /* Stack and Queue */ = {
+			isa = PBXGroup;
+			children = (
+				FAF54960285F294A006012CC /* StackContainerBoxNodeName.swift */,
+				FAF54962285F2968006012CC /* ContainerBoxNodeDelegate.swift */,
+			);
+			path = "Stack and Queue";
+			sourceTree = "<group>";
+		};
+		FAF54964285F3185006012CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FAF54965285F318A006012CC /* Controllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FAF54965285F318A006012CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAF54966285F31A6006012CC /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FAF54968285F31CF006012CC /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5496C285F32C5006012CC /* Models */,
+				FAF54969285F31DD006012CC /* Controllers */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		FAF54969285F31DD006012CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FAF5496A285F32AA006012CC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5496B285F32AF006012CC /* Fonts */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FAF5496B285F32AF006012CC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FAF54977285F3375006012CC /* FontManager.swift */,
+				FAF54979285F33C0006012CC /* FontType.swift */,
+				FAF5497B285F33D4006012CC /* Font.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FAF5496C285F32C5006012CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5496D285F32CB006012CC /* Course.swift */,
+				FAF5496F285F32E6006012CC /* CourseSubject.swift */,
+				FAF54975285F331B006012CC /* Lesson.swift */,
+				FAF54971285F3302006012CC /* LessonName.swift */,
+				FAF54973285F330E006012CC /* Operation.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +235,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF54963285F2968006012CC /* ContainerBoxNodeDelegate.swift in Sources */,
+				FAF54972285F3302006012CC /* LessonName.swift in Sources */,
+				FAF5497C285F33D4006012CC /* Font.swift in Sources */,
+				FAF5496E285F32CB006012CC /* Course.swift in Sources */,
+				FAF54974285F330E006012CC /* Operation.swift in Sources */,
 				FAF5494F285F284A006012CC /* ViewController.swift in Sources */,
 				FAF5494B285F284A006012CC /* AppDelegate.swift in Sources */,
+				FAF5497A285F33C0006012CC /* FontType.swift in Sources */,
 				FAF5494D285F284A006012CC /* SceneDelegate.swift in Sources */,
+				FAF54961285F294A006012CC /* StackContainerBoxNodeName.swift in Sources */,
+				FAF54967285F31A6006012CC /* HomeViewController.swift in Sources */,
+				FAF54970285F32E6006012CC /* CourseSubject.swift in Sources */,
+				FAF54978285F3375006012CC /* FontManager.swift in Sources */,
+				FAF54976285F331B006012CC /* Lesson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G29NT6D4LJ;
+				DEVELOPMENT_TEAM = 6897VAM74N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DataStructuresAR/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jayvennhan.app.DataStructuresAR;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayvennhan.app.DataStructureAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,7 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G29NT6D4LJ;
+				DEVELOPMENT_TEAM = 6897VAM74N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DataStructuresAR/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jayvennhan.app.DataStructuresAR;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayvennhan.app.DataStructureAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

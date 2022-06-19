@@ -9,11 +9,11 @@ import UIKit
 
 class LessonsViewController: BaseMenuViewController {
   // MARK: - Properties
-  private lazy var leftBarButtonItem: UIBarButtonItem = {
+  private lazy var rightBarButtonItem: UIBarButtonItem = {
     let barButtonItem = UIBarButtonItem(
-      barButtonSystemItem: UIBarButtonItem.SystemItem.cancel,
+      barButtonSystemItem: UIBarButtonItem.SystemItem.close,
       target: self,
-      action: #selector(leftBarItemDidTouchUpInside)
+      action: #selector(rightBarItemDidTouchUpInside)
     )
     return barButtonItem
   }()
@@ -43,7 +43,7 @@ class LessonsViewController: BaseMenuViewController {
     tableView.reloadData()
   }
   // MARK: - Actions
-  @objc func leftBarItemDidTouchUpInside(_ sender: UIButton) {
+  @objc func rightBarItemDidTouchUpInside(_ sender: UIButton) {
     dismiss(animated: true, completion: nil)
   }
 }
@@ -55,7 +55,7 @@ extension LessonsViewController {
     registerTableViewCell()
     setUpLayout()
     setUpUI()
-    navigationItem.leftBarButtonItem = leftBarButtonItem
+    navigationItem.rightBarButtonItem = rightBarButtonItem
   }
 }
 

@@ -8,6 +8,7 @@
 import UIKit
 import ARKit
 import SpriteKit
+import SnapKit
 
 let minimumScaleFactor: CGFloat = 0.5
 class DefaultARViewController: BaseMenuViewController {

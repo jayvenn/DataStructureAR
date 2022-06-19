@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA75B95E285F3F6100A8B409 /* SubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B95D285F3F6100A8B409 /* SubtitleView.swift */; };
+		FA75B960285F3F7500A8B409 /* OperationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B95F285F3F7500A8B409 /* OperationView.swift */; };
+		FA75B962285F3FA100A8B409 /* ARStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B961285F3FA100A8B409 /* ARStackView.swift */; };
+		FA75B964285F3FB600A8B409 /* BigOComplexity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B963285F3FB600A8B409 /* BigOComplexity.swift */; };
+		FA75B966285F3FDA00A8B409 /* SubtitleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B965285F3FDA00A8B409 /* SubtitleTextView.swift */; };
+		FA75B968285F401500A8B409 /* OperationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B967285F401500A8B409 /* OperationCollectionViewCell.swift */; };
+		FA75B96A285F405D00A8B409 /* ARLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B969285F405D00A8B409 /* ARLabel.swift */; };
+		FA75B96C285F408500A8B409 /* ARButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B96B285F408500A8B409 /* ARButton.swift */; };
+		FA75B96F285F410900A8B409 /* UIColor+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B96E285F410900A8B409 /* UIColor+Custom.swift */; };
+		FA75B971285F41AA00A8B409 /* UIView+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B970285F41AA00A8B409 /* UIView+Convenience.swift */; };
+		FA75B973285F41C300A8B409 /* String+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B972285F41C300A8B409 /* String+Convenience.swift */; };
+		FA75B975285F41E000A8B409 /* float4x4+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B974285F41E000A8B409 /* float4x4+Convenience.swift */; };
+		FA75B977285F41F300A8B409 /* SCNScene+Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B976285F41F300A8B409 /* SCNScene+Node.swift */; };
+		FA75B979285F423A00A8B409 /* UIViewController+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B978285F423A00A8B409 /* UIViewController+Convenience.swift */; };
+		FA75B97C285F433000A8B409 /* LocalizationString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B97B285F433000A8B409 /* LocalizationString.swift */; };
+		FA75B97E285F436400A8B409 /* Notification+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B97D285F436400A8B409 /* Notification+Name.swift */; };
+		FA75B980285F43B500A8B409 /* AlternateARButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B97F285F43B500A8B409 /* AlternateARButton.swift */; };
 		FAF5494B285F284A006012CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5494A285F284A006012CC /* AppDelegate.swift */; };
 		FAF5494D285F284A006012CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5494C285F284A006012CC /* SceneDelegate.swift */; };
 		FAF5494F285F284A006012CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5494E285F284A006012CC /* ViewController.swift */; };
@@ -42,6 +59,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA75B95D285F3F6100A8B409 /* SubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleView.swift; sourceTree = "<group>"; };
+		FA75B95F285F3F7500A8B409 /* OperationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationView.swift; sourceTree = "<group>"; };
+		FA75B961285F3FA100A8B409 /* ARStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARStackView.swift; sourceTree = "<group>"; };
+		FA75B963285F3FB600A8B409 /* BigOComplexity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigOComplexity.swift; sourceTree = "<group>"; };
+		FA75B965285F3FDA00A8B409 /* SubtitleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleTextView.swift; sourceTree = "<group>"; };
+		FA75B967285F401500A8B409 /* OperationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA75B969285F405D00A8B409 /* ARLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLabel.swift; sourceTree = "<group>"; };
+		FA75B96B285F408500A8B409 /* ARButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARButton.swift; sourceTree = "<group>"; };
+		FA75B96E285F410900A8B409 /* UIColor+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Custom.swift"; sourceTree = "<group>"; };
+		FA75B970285F41AA00A8B409 /* UIView+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Convenience.swift"; sourceTree = "<group>"; };
+		FA75B972285F41C300A8B409 /* String+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Convenience.swift"; sourceTree = "<group>"; };
+		FA75B974285F41E000A8B409 /* float4x4+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "float4x4+Convenience.swift"; sourceTree = "<group>"; };
+		FA75B976285F41F300A8B409 /* SCNScene+Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNScene+Node.swift"; sourceTree = "<group>"; };
+		FA75B978285F423A00A8B409 /* UIViewController+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Convenience.swift"; sourceTree = "<group>"; };
+		FA75B97B285F433000A8B409 /* LocalizationString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationString.swift; sourceTree = "<group>"; };
+		FA75B97D285F436400A8B409 /* Notification+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Name.swift"; sourceTree = "<group>"; };
+		FA75B97F285F43B500A8B409 /* AlternateARButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateARButton.swift; sourceTree = "<group>"; };
 		FAF54947285F284A006012CC /* DataStructureAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructureAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF5494A285F284A006012CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF5494C285F284A006012CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +123,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA75B96D285F40D600A8B409 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA75B96E285F410900A8B409 /* UIColor+Custom.swift */,
+				FA75B970285F41AA00A8B409 /* UIView+Convenience.swift */,
+				FA75B972285F41C300A8B409 /* String+Convenience.swift */,
+				FA75B974285F41E000A8B409 /* float4x4+Convenience.swift */,
+				FA75B976285F41F300A8B409 /* SCNScene+Node.swift */,
+				FA75B978285F423A00A8B409 /* UIViewController+Convenience.swift */,
+				FA75B97D285F436400A8B409 /* Notification+Name.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA75B97A285F431D00A8B409 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				FA75B97B285F433000A8B409 /* LocalizationString.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		FAF5493E285F284A006012CC = {
 			isa = PBXGroup;
 			children = (
@@ -111,8 +167,10 @@
 				FAF5496A285F32AA006012CC /* App */,
 				FAF549A3285F3C37006012CC /* AR */,
 				FAF5498C285F36FC006012CC /* Course */,
+				FA75B96D285F40D600A8B409 /* Extensions */,
 				FAF54964285F3185006012CC /* Home */,
 				FAF54988285F36D4006012CC /* Lessons */,
+				FA75B97A285F431D00A8B409 /* Localization */,
 				FAF54968285F31CF006012CC /* Menu */,
 				FAF5497F285F35BC006012CC /* ReusableUIs */,
 				FAF5495E285F2901006012CC /* StackQueue */,
@@ -356,6 +414,12 @@
 			isa = PBXGroup;
 			children = (
 				FAF549B0285F3D76006012CC /* BottomSectionUIs */,
+				FA75B97F285F43B500A8B409 /* AlternateARButton.swift */,
+				FA75B96B285F408500A8B409 /* ARButton.swift */,
+				FA75B969285F405D00A8B409 /* ARLabel.swift */,
+				FA75B961285F3FA100A8B409 /* ARStackView.swift */,
+				FA75B967285F401500A8B409 /* OperationCollectionViewCell.swift */,
+				FA75B965285F3FDA00A8B409 /* SubtitleTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -364,6 +428,7 @@
 			isa = PBXGroup;
 			children = (
 				FAF549AB285F3CF4006012CC /* ARManager.swift */,
+				FA75B963285F3FB600A8B409 /* BigOComplexity.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -380,6 +445,8 @@
 			isa = PBXGroup;
 			children = (
 				FAF549B1285F3D85006012CC /* BaseARView.swift */,
+				FA75B95D285F3F6100A8B409 /* SubtitleView.swift */,
+				FA75B95F285F3F7500A8B409 /* OperationView.swift */,
 			);
 			path = BottomSectionUIs;
 			sourceTree = "<group>";
@@ -462,11 +529,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA75B973285F41C300A8B409 /* String+Convenience.swift in Sources */,
+				FA75B979285F423A00A8B409 /* UIViewController+Convenience.swift in Sources */,
 				FAF5498B285F36E8006012CC /* LessonsViewController.swift in Sources */,
 				FAF549A0285F38F7006012CC /* Constants.swift in Sources */,
+				FA75B96F285F410900A8B409 /* UIColor+Custom.swift in Sources */,
 				FAF54963285F2968006012CC /* ContainerBoxNodeDelegate.swift in Sources */,
+				FA75B964285F3FB600A8B409 /* BigOComplexity.swift in Sources */,
 				FAF54972285F3302006012CC /* LessonName.swift in Sources */,
 				FAF54985285F365F006012CC /* MenuNavigationController.swift in Sources */,
+				FA75B980285F43B500A8B409 /* AlternateARButton.swift in Sources */,
+				FA75B960285F3F7500A8B409 /* OperationView.swift in Sources */,
 				FAF5497C285F33D4006012CC /* Font.swift in Sources */,
 				FAF549A2285F3A1C006012CC /* AlternateActionButton.swift in Sources */,
 				FAF549A6285F3C50006012CC /* DefaultARViewController.swift in Sources */,
@@ -474,19 +547,30 @@
 				FAF5496E285F32CB006012CC /* Course.swift in Sources */,
 				FAF549AC285F3CF4006012CC /* ARManager.swift in Sources */,
 				FAF54998285F37AF006012CC /* LessonTableViewCell.swift in Sources */,
+				FA75B971285F41AA00A8B409 /* UIView+Convenience.swift in Sources */,
+				FA75B968285F401500A8B409 /* OperationCollectionViewCell.swift in Sources */,
+				FA75B95E285F3F6100A8B409 /* SubtitleView.swift in Sources */,
 				FAF54974285F330E006012CC /* Operation.swift in Sources */,
 				FAF5497E285F3566006012CC /* HomeViewController.swift in Sources */,
 				FAF5494F285F284A006012CC /* ViewController.swift in Sources */,
 				FAF5494B285F284A006012CC /* AppDelegate.swift in Sources */,
+				FA75B97E285F436400A8B409 /* Notification+Name.swift in Sources */,
 				FAF5497A285F33C0006012CC /* TextFont.swift in Sources */,
 				FAF5494D285F284A006012CC /* SceneDelegate.swift in Sources */,
 				FAF5499A285F37C1006012CC /* MenuTableViewCell.swift in Sources */,
+				FA75B96A285F405D00A8B409 /* ARLabel.swift in Sources */,
 				FAF549A8285F3C61006012CC /* ARLessonViewController.swift in Sources */,
 				FAF54961285F294A006012CC /* StackContainerBoxNodeName.swift in Sources */,
 				FAF549B2285F3D85006012CC /* BaseARView.swift in Sources */,
+				FA75B97C285F433000A8B409 /* LocalizationString.swift in Sources */,
 				FAF54967285F31A6006012CC /* BaseMenuViewController.swift in Sources */,
+				FA75B96C285F408500A8B409 /* ARButton.swift in Sources */,
 				FAF54970285F32E6006012CC /* CourseSubject.swift in Sources */,
+				FA75B977285F41F300A8B409 /* SCNScene+Node.swift in Sources */,
+				FA75B962285F3FA100A8B409 /* ARStackView.swift in Sources */,
+				FA75B975285F41E000A8B409 /* float4x4+Convenience.swift in Sources */,
 				FAF54978285F3375006012CC /* FontManager.swift in Sources */,
+				FA75B966285F3FDA00A8B409 /* SubtitleTextView.swift in Sources */,
 				FAF54976285F331B006012CC /* Lesson.swift in Sources */,
 				FAF5499D285F38A7006012CC /* ActionButton.swift in Sources */,
 			);

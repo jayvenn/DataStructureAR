@@ -1,5 +1,5 @@
 //
-//  FontType.swift
+//  TextFont.swift
 //  DataStructuresAR
 //
 //  Created by Jayvenn on 2022-06-19.

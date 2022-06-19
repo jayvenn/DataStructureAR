@@ -22,7 +22,7 @@
 		FAF54974285F330E006012CC /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF54973285F330E006012CC /* Operation.swift */; };
 		FAF54976285F331B006012CC /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF54975285F331B006012CC /* Lesson.swift */; };
 		FAF54978285F3375006012CC /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF54977285F3375006012CC /* FontManager.swift */; };
-		FAF5497A285F33C0006012CC /* FontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF54979285F33C0006012CC /* FontType.swift */; };
+		FAF5497A285F33C0006012CC /* TextFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF54979285F33C0006012CC /* TextFont.swift */; };
 		FAF5497C285F33D4006012CC /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF5497B285F33D4006012CC /* Font.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +44,7 @@
 		FAF54973285F330E006012CC /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 		FAF54975285F331B006012CC /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
 		FAF54977285F3375006012CC /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
-		FAF54979285F33C0006012CC /* FontType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontType.swift; sourceTree = "<group>"; };
+		FAF54979285F33C0006012CC /* TextFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFont.swift; sourceTree = "<group>"; };
 		FAF5497B285F33D4006012CC /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,7 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				FAF54977285F3375006012CC /* FontManager.swift */,
-				FAF54979285F33C0006012CC /* FontType.swift */,
+				FAF54979285F33C0006012CC /* TextFont.swift */,
 				FAF5497B285F33D4006012CC /* Font.swift */,
 			);
 			path = Fonts;
@@ -242,7 +242,7 @@
 				FAF54974285F330E006012CC /* Operation.swift in Sources */,
 				FAF5494F285F284A006012CC /* ViewController.swift in Sources */,
 				FAF5494B285F284A006012CC /* AppDelegate.swift in Sources */,
-				FAF5497A285F33C0006012CC /* FontType.swift in Sources */,
+				FAF5497A285F33C0006012CC /* TextFont.swift in Sources */,
 				FAF5494D285F284A006012CC /* SceneDelegate.swift in Sources */,
 				FAF54961285F294A006012CC /* StackContainerBoxNodeName.swift in Sources */,
 				FAF54967285F31A6006012CC /* HomeViewController.swift in Sources */,

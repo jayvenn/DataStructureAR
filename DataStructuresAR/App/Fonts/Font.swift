@@ -40,7 +40,7 @@ struct Font {
         self.type = type
         self.size = size
     }
-    init(object: FontType) {
+    init(object: TextFont) {
         switch object {
         case .titleLabel:
             type = FontType.systemBold

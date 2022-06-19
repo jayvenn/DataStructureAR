@@ -8,6 +8,7 @@
 import UIKit
 import ARKit
 import SpriteKit
+import SnapKit
 
 let initialSpringVelocity: CGFloat = 1 // 1
 let springWithDaming: CGFloat = 0.9 // 0.7

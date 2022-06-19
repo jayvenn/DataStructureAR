@@ -145,9 +145,9 @@
 		FAF5496B285F32AF006012CC /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				FAF5497B285F33D4006012CC /* Font.swift */,
 				FAF54977285F3375006012CC /* FontManager.swift */,
 				FAF54979285F33C0006012CC /* TextFont.swift */,
-				FAF5497B285F33D4006012CC /* Font.swift */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";

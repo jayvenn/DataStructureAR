@@ -387,7 +387,6 @@
 		FAF5498C285F36FC006012CC /* Course */ = {
 			isa = PBXGroup;
 			children = (
-				FAF54990285F3747006012CC /* Views */,
 				FAF5498D285F3704006012CC /* Controllers */,
 				FAF5498E285F370D006012CC /* Models */,
 			);
@@ -419,13 +418,6 @@
 				FAF54971285F3302006012CC /* LessonName.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		FAF54990285F3747006012CC /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		FAF54991285F376F006012CC /* Views */ = {

@@ -76,8 +76,8 @@ extension HomeViewController {
   }
   
   func setHeaderLabelFont() {
-    let titleText = "Learn CS in AR"
-    let subTitleText = NSLocalizedString("Computer Science for Everyone", comment: "Computer Science for Everyone")
+    let titleText = "Data Structure"
+    let subTitleText = NSLocalizedString("Augmented Reality", comment: "Augmented Reality")
     let titleTextFont = Font(object: .titleLabel).instance
     let subtitleTextFont = Font(object: .subTitleLabel).instance
     let titleTextAttributes = [

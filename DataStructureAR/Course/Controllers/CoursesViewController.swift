@@ -44,7 +44,11 @@ final class CoursesViewController: BaseMenuViewController {
     return indexPaths
   }
   private lazy var rightBarButtonItem: UIBarButtonItem = {
-    let barButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.cancel, target: self, action: #selector(CoursesViewController.rightBarItemDidTouchUpInside))
+    let barButtonItem = UIBarButtonItem(
+      barButtonSystemItem: UIBarButtonItem.SystemItem.cancel,
+      target: self,
+      action: #selector(rightBarItemDidTouchUpInside)
+    )
     return barButtonItem
   }()
   @objc func rightBarItemDidTouchUpInside(_ sender: UIButton) {

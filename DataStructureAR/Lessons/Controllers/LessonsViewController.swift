@@ -8,6 +8,15 @@
 import UIKit
 
 class LessonsViewController: BaseMenuViewController {
+  // MARK: - Properties
+  private lazy var leftBarButtonItem: UIBarButtonItem = {
+    let barButtonItem = UIBarButtonItem(
+      barButtonSystemItem: UIBarButtonItem.SystemItem.cancel,
+      target: self,
+      action: #selector(leftBarItemDidTouchUpInside)
+    )
+    return barButtonItem
+  }()
   let course: Course
   lazy var tableView: UITableView = {
     let tableView = UITableView()
@@ -33,6 +42,10 @@ class LessonsViewController: BaseMenuViewController {
     super.configureView()
     tableView.reloadData()
   }
+  // MARK: - Actions
+  @objc func leftBarItemDidTouchUpInside(_ sender: UIButton) {
+    dismiss(animated: true, completion: nil)
+  }
 }
 
 // MARK: CourseViewController - Life cycles
@@ -42,6 +55,7 @@ extension LessonsViewController {
     registerTableViewCell()
     setUpLayout()
     setUpUI()
+    navigationItem.leftBarButtonItem = leftBarButtonItem
   }
 }
 
